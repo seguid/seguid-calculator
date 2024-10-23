@@ -1,0 +1,25 @@
+project:
+  type: website
+  output-dir: docs
+  
+website:
+  title: "SEGUID v2 Calculator"
+  
+  navbar:
+    right:
+      - icon: github
+        href: https://github.com/seguid/seguid-calculator/
+        aria-label: GitHub
+ 
+  repo-url: https://github.com/seguid/seguid-calculator/
+  repo-actions: [source, edit, issue]
+    
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+execute:
+  freeze: auto
+  
