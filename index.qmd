@@ -18,80 +18,11 @@ format: html
 </head>
 
 <body>
-    <div>
-        <div class="row">
-            <div class="col">
-                Biological sequences in raw format only. All except GATCRYWSMKHBVDN will be
-                ignored. Complement and reverse complement will be calculated based on the {DNA-extended} alphabet.
-            </div>
-        </div>
-
-        <div class="row fs-6 font-monospace">
-            <div class="col-md-5">
-                linear single-strand
-            </div>
-            <div class="col-md-6" id="lsseguid" style="white-space: nowrap">
-
-            </div>
-        </div>
-        <div class="row fs-6 font-monospace">
-            <div class="col-md-5">
-                circular single-strand
-            </div>
-            <div class="col-md-6" id="csseguid" style="white-space: nowrap">
-            </div>
-        </div>
-        <div class="row fs-6 font-monospace">
-            <div class="col-md-5">
-                linear double-strand
-            </div>
-            <div class="col-md-6" id="ldseguid" style="white-space: nowrap">
-            </div>
-        </div>
-        <div class="row fs-6 font-monospace">
-            <div class="col-md-5">
-                circular double-strand
-            </div>
-            <div class="col-md-6" id="cdseguid" style="white-space: nowrap">
-            </div>
-        </div>
-        <div class="row fs-6 font-monospace">
-            <div class="col-md-5">
-                Length
-            </div>
-            <div class="col-md-6" id="length">
-            </div>
-        </div>
-        <div class="row fs-6 font-monospace">
-            <div class="col-md-5">
-                Characters
-            </div>
-            <div class="col-md-6" id="chars">
-            </div>
-        </div>
-        <div class="row">
-            <textarea class="form-control mb-3" id="sequence" rows="10" cols="120"></textarea>
-            <div class="d-flex justify-content-start">
-                <div class="col-auto">
-                    <button class="btn btn-success me-2" id="reverse">Reverse</button>
-                </div>
-                <div class="col-auto">
-                    <button class="btn btn-success me-2" id="complement">Complement</button>
-                </div>
-                <div class="col-auto">
-                    <button class="btn btn-success me-2" id="reverse_complement">Reverse Complement</button>
-                </div>
-                <div class="col-auto">
-                    <button class="btn btn-danger" id="clear">Clear</button>
-                </div>
-            </div>
-        </div>
-    </div>
+    <div id="seguid-calculator"></div>
 
     <script>
        seguid_calulator();
     </script>
-
   </body>
 </html>
 ```
