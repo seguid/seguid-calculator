@@ -3,7 +3,7 @@ project:
   output-dir: docs
   
 website:
-  title: "SEGUID v2 Calculator"
+  title: "SEGUID Calculator"
   
   navbar:
     right:

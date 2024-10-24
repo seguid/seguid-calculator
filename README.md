@@ -1,4 +1,4 @@
-# SEGUID v2 Calculator
+# SEGUID Calculator
 
 The SEGUID Calculator is a web-based GUI for the [SEGUID v2](https://www.seguid.org) method.  To include it in a web page,
 

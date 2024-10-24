@@ -1,5 +1,5 @@
 ---
-title: SEGUID v2 Calculator
+title: SEGUID Calculator
 format: html
 ---
 ```{=html}
@@ -14,7 +14,7 @@ format: html
     <script src="https://rawcdn.githack.com/seguid/seguid-javascript/0.2.0/seguid.js"></script>
     <script src="seguid-calculator.js"></script>
 
-    <title>SEGUID v2 Calculator</title>
+    <title>SEGUID Calculator</title>
 </head>
 
 <body>
