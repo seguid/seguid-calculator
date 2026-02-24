@@ -1,1 +1,0 @@
-Sitemap: https://seguid.github.io/seguid-calculator/sitemap.xml
